@@ -1,0 +1,6 @@
+2022-04-14 10:40:19.665 +08:00 [INF] Starting web host
+2022-04-14 10:40:20.261 +08:00 [INF] Now listening on: http://localhost:5000
+2022-04-14 10:40:20.263 +08:00 [INF] Now listening on: https://localhost:5001
+2022-04-14 10:40:20.264 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-14 10:40:20.264 +08:00 [INF] Hosting environment: Production
+2022-04-14 10:40:20.264 +08:00 [INF] Content root path: D:\zPublish\AMR.MRC
