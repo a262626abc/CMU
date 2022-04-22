@@ -1,0 +1,13 @@
+address	1	AlarmID
+address	54	CarrierID
+address	58	CommandID
+address	59	CommandInfo
+address	61	EqpName
+address	64	ResultCode
+address	67	TransferInfo
+address	68	TransferPort
+address	70	VehicleID
+address	201	TSAvail
+address	341	SALCode
+address	342	SALUnitID
+address	343	SALText

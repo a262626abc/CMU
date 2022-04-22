@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MRC.Model</name>
+    </assembly>
+    <members>
+        <member name="T:MRC.Model.MessageModel`1">
+            <summary>
+            通用返回信息类
+            </summary>
+        </member>
+        <member name="P:MRC.Model.MessageModel`1.status">
+            <summary>
+            状态码
+            </summary>
+        </member>
+        <member name="P:MRC.Model.MessageModel`1.success">
+            <summary>
+            操作是否成功
+            </summary>
+        </member>
+        <member name="P:MRC.Model.MessageModel`1.msg">
+            <summary>
+            返回信息
+            </summary>
+        </member>
+        <member name="P:MRC.Model.MessageModel`1.response">
+            <summary>
+            返回数据集合
+            </summary>
+        </member>
+        <member name="P:MRC.Model.Models.RootTkey.EntityTKeyDto`1.Id">
+            <summary>
+            ID
+            泛型主键Tkey
+            </summary>
+        </member>
+        <member name="P:MRC.Model.Models.RootEntityTkey`1.Id">
+            <summary>
+            ID
+            泛型主键Tkey
+            </summary>
+        </member>
+        <member name="T:MRC.Model.Models.UserInfo">
+            <summary>
+            用户表
+            </summary>
+        </member>
+        <member name="P:MRC.Model.Models.UserInfo.UserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:MRC.Model.Models.UserInfo.LoginName">
+            <summary>
+            登录账号
+            </summary>
+        </member>
+        <member name="P:MRC.Model.Models.UserInfo.LoginPassWord">
+            <summary>
+            登录密码
+            </summary>
+        </member>
+        <member name="P:MRC.Model.Models.UserInfo.Phone">
+            <summary>
+            手机号
+            </summary>
+        </member>
+        <member name="P:MRC.Model.Models.UserInfo.Introduction">
+            <summary>
+            个人介绍
+            </summary>
+        </member>
+        <member name="P:MRC.Model.Models.UserInfo.Email">
+            <summary>
+            邮箱
+            </summary>
+        </member>
+        <member name="P:MRC.Model.Models.UserInfo.HeadPortrait">
+            <summary>
+            头像
+            </summary>
+        </member>
+        <member name="P:MRC.Model.Models.UserInfo.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="T:MRC.Model.TableModel`1">
+            <summary>
+            表格数据，支持分页
+            </summary>
+        </member>
+        <member name="P:MRC.Model.TableModel`1.Code">
+            <summary>
+            返回编码
+            </summary>
+        </member>
+        <member name="P:MRC.Model.TableModel`1.Msg">
+            <summary>
+            返回信息
+            </summary>
+        </member>
+        <member name="P:MRC.Model.TableModel`1.Count">
+            <summary>
+            记录总数
+            </summary>
+        </member>
+        <member name="P:MRC.Model.TableModel`1.Data">
+            <summary>
+            返回数据集
+            </summary>
+        </member>
+        <member name="P:MRC.Model.ViewModels.UserInfo.CreateUserInfoInputDto.UserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:MRC.Model.ViewModels.UserInfo.CreateUserInfoInputDto.LoginName">
+            <summary>
+            登录账号
+            </summary>
+        </member>
+        <member name="P:MRC.Model.ViewModels.UserInfo.CreateUserInfoInputDto.LoginPassWord">
+            <summary>
+            登录密码
+            </summary>
+        </member>
+        <member name="P:MRC.Model.ViewModels.UserInfo.CreateUserInfoInputDto.Phone">
+            <summary>
+            手机号
+            </summary>
+        </member>
+        <member name="P:MRC.Model.ViewModels.UserInfo.CreateUserInfoInputDto.Introduction">
+            <summary>
+            个人介绍
+            </summary>
+        </member>
+        <member name="P:MRC.Model.ViewModels.UserInfo.CreateUserInfoInputDto.Email">
+            <summary>
+            邮箱
+            </summary>
+        </member>
+        <member name="P:MRC.Model.ViewModels.UserInfo.CreateUserInfoInputDto.HeadPortrait">
+            <summary>
+            头像
+            </summary>
+        </member>
+        <member name="P:MRC.Model.ViewModels.UserInfo.UpdateUserInfoInputDto.Introduction">
+            <summary>
+            个人介绍
+            </summary>
+        </member>
+        <member name="P:MRC.Model.ViewModels.UserInfo.UpdateUserInfoInputDto.Email">
+            <summary>
+            邮箱
+            </summary>
+        </member>
+        <member name="P:MRC.Model.ViewModels.UserInfo.UpdateUserInfoInputDto.HeadPortrait">
+            <summary>
+            头像
+            </summary>
+        </member>
+        <member name="P:MRC.Model.ViewModels.UserInfo.UserInfoDetailsDto.UserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:MRC.Model.ViewModels.UserInfo.UserInfoDetailsDto.Phone">
+            <summary>
+            手机号
+            </summary>
+        </member>
+        <member name="P:MRC.Model.ViewModels.UserInfo.UserInfoDetailsDto.Introduction">
+            <summary>
+            个人介绍
+            </summary>
+        </member>
+        <member name="P:MRC.Model.ViewModels.UserInfo.UserInfoDetailsDto.Email">
+            <summary>
+            邮箱
+            </summary>
+        </member>
+        <member name="P:MRC.Model.ViewModels.UserInfo.UserInfoDetailsDto.HeadPortrait">
+            <summary>
+            头像
+            </summary>
+        </member>
+        <member name="P:MRC.Model.ViewModels.UserInfo.UserInfoDto.UserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:MRC.Model.ViewModels.UserInfo.UserInfoDto.HeadPortrait">
+            <summary>
+            头像
+            </summary>
+        </member>
+        <member name="P:MRC.Model.ViewModels.UserInfo.UserInfoDto.ArticlesCount">
+            <summary>
+            文章数量
+            </summary>
+        </member>
+        <member name="P:MRC.Model.ViewModels.UserInfo.UserInfoDto.QuestionsCount">
+            <summary>
+            问答数量
+            </summary>
+        </member>
+    </members>
+</doc>
